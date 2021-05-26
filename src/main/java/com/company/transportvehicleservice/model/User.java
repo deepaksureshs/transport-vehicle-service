@@ -13,6 +13,10 @@ public class User {
 	private String createdAt;
 	private String updatedAt;
 
+	public User() {
+
+	}
+
 	public User(String userName) {
 		super();
 		this.userName = userName;
